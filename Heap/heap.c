@@ -131,7 +131,7 @@ unsigned char heap_isEmpty(dArray *arr) {
  * Hoiatus! Programmi käitumine etteaimamatu (tõenäoliselt crash), kui kuhjas on korduvaid
  * elemente või elemendid viitavad staatiliselt eraldatud mälule jne.  */
 void heap_destroyWithContent(dArray *arr) {
-	int i;
+	unsigned int i;
 	heapNode *node;
 
 	for (i = 0; i < arr->size; i++) {
