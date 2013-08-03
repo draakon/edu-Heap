@@ -1,7 +1,7 @@
 edu-Heap
 =======
 
-Basic binary heap with open addressing.
+Basic binary heap.
 
 All comments are in Estonian.
 
